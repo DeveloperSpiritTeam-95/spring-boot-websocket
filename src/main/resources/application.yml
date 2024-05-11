@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: local
+
+aws:
+  accessKey: AKIATCKASHPDSS2PDVND
+  secretKey: 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
+  region: ap-south-1
+  s3:
+   bucket: presignedurls3
+   bucket1: productimages3
+   folder1: prabhakar
+   folder2: ShopByPets
+   folder3: OffersImg
+   folder4: CategoryImg

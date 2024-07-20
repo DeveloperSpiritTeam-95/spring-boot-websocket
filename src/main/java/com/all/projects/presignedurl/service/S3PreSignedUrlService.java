@@ -33,14 +33,6 @@ public class S3PreSignedUrlService {
     @Value("${aws.s3.folder1}")
     private String prabhakarFolder;
 
-    @Value("${aws.s3.folder2}")
-    private String ShopByPetsFolder;
-
-    @Value("${aws.s3.folder3}")
-    private String OffersImgFolder;
-
-    @Value("${aws.s3.folder4}")
-    private String CategoryImgFolder;
 
 
     public String generateUrl(String fileName, HttpMethod httpMethod, String folderName) {
